@@ -24,10 +24,34 @@
 "files" : [
   {
     "source" : "/**/res/values/custom_strings.xml",
-    "translation" : "/%original_path%-%android_code%/%original_file_name%"
+    "translation" : "/%original_path%-%android_code%/%original_file_name%",
+    "languages_mapping" : &anchor {
+      "android_code" : {
+        "bn-IN" : "bn-rIN",
+        "cs" : "cs",
+        "nl" : "nl",
+        "fi" : "fi",
+        "fr" : "fr",
+        "de" : "de",
+        "el" : "el",
+        "hi" : "hi",
+        "hu" : "hu",
+        "it" : "it",
+        "kn" : "kn-rIN",
+        "ne-NP" :"ne-rNP",
+        "pt-PT" : "pt-rPT",
+        "ru" : "ru",
+        "es-ES" : "es",
+        "sv-SE" : "sv",
+        "ta" : "ta-rIN",
+        "te" : "te-rIN"
+      }
+    }
   },
+
   {
     "source" : "/packages/apps/Wings/res/values/strings.xml",
-    "translation" : "/%original_path%-%android_code%/%original_file_name%"
+    "translation" : "/%original_path%-%android_code%/%original_file_name%",
+    "languages_mapping" : *anchor
   }
 ]
