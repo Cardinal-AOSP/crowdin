@@ -27,7 +27,7 @@
     "translation" : "/%original_path%-%android_code%/%original_file_name%",
     "languages_mapping" : &anchor {
       "android_code" : {
-        "bn-IN" : "bn-rIN",
+        "bn-IN" : "bn",
         "cs" : "cs",
         "nl" : "nl",
         "fi" : "fi",
@@ -37,20 +37,25 @@
         "hi" : "hi",
         "hu" : "hu",
         "it" : "it",
-        "kn" : "kn-rIN",
-        "ne-NP" :"ne-rNP",
+        "kn" : "kn",
+        "ne-NP" :"ne",
         "pt-PT" : "pt-rPT",
         "ru" : "ru",
         "es-ES" : "es",
         "sv-SE" : "sv",
-        "ta" : "ta-rIN",
-        "te" : "te-rIN"
+        "ta" : "ta",
+        "te" : "te"
       }
     }
   },
 
   {
     "source" : "/packages/apps/Wings/res/values/strings.xml",
+    "translation" : "/%original_path%-%android_code%/%original_file_name%",
+    "languages_mapping" : *anchor
+  },
+  {
+    "source" : "/packages/apps/CardinalOTA/app/src/main/res/values/strings.xml",
     "translation" : "/%original_path%-%android_code%/%original_file_name%",
     "languages_mapping" : *anchor
   }
