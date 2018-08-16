@@ -36,19 +36,21 @@
         "el" : "el",
         "hi" : "hi",
         "hu" : "hu",
-        "in" : "in",
+        "id" : "in",
         "it" : "it",
         "ja" : "ja",
         "kn" : "kn",
-        "ne-NP" :"ne",
+        "ne-NP" : "ne",
         "no" : "no",
-        "pl" :"pl",
+        "pl" : "pl",
         "pt-PT" : "pt-rPT",
         "ru" : "ru",
         "es-ES" : "es",
         "sv-SE" : "sv",
         "ta" : "ta",
-        "te" : "te"
+        "te" : "te",
+        "sk" : "sk",
+        "tr" : "tr"
       }
     }
   },
